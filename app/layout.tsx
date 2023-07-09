@@ -26,13 +26,12 @@ export default function RootLayout({
         <SideBar />
         <Headers2 />
         <div className="-z-50">
-            <Providers>
-          <Headers />
-          <div className="md:ml-20  overflow-y-auto">{children}</div>
-          <Footer/>
-        </Providers>
+          <Providers>
+            <Headers />
+            <div className="md:ml-20  overflow-y-auto">{children}</div>
+            <Footer />
+          </Providers>
         </div>
-   
       </body>
     </html>
   );
